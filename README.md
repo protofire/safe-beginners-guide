@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-# safe-beginners-guide
-=======
 # Protofire Safe - Beginner's Guide
 
-> **Protofire Safe** is a fork of [Safe{Wallet}](https://safe.global/) maintained by [Protofire](https://protofire.io/), deployed across a range of EVM-compatible networks including Moonbeam, Moonriver, Filecoin, and Rootstock.
+> **Protofire Safe** is a fork of [Safe{Wallet}](https://safe.global/) maintained by [Protofire](https://protofire.io/), deployed across a range of EVM-compatible networks including Plasma, Tempo, Moca and Blast.
 
 ---
 
@@ -81,11 +78,11 @@ After connecting, check the **network** shown in the top-right corner. If it doe
 
 ### Step 1 - Start the setup wizard
 
-Click **Create new Safe** on the home screen.
+Click **Create Account** on the home screen.
 
 >
 > ![Create new Safe button](assets/03-create-safe-btn.png)
-> *The "Create new Safe" button on the dashboard.*
+> *The "Create Account" button on the dashboard.*
 
 ### Step 2 - Name your Safe
 
@@ -122,7 +119,7 @@ Click **Next**.
 > ![Safe creation review screen](assets/06-review-deploy.png)
 > *The review screen before deployment. Verify every owner address and the threshold.*
 
-Click **Create** - your wallet will ask you to sign the deployment transaction.
+Click **Create account** - your wallet will ask you to sign the deployment transaction.
 
 ### Step 5 - Wait for confirmation
 
@@ -273,8 +270,8 @@ After the transaction mines, it moves from **Queue** to **History** with a link 
 WalletConnect lets you use your Safe as the wallet on any external dApp - DeFi protocols, governance platforms, NFT marketplaces - the same way you'd connect MetaMask, but with multisig security behind every action.
 
 ```
-┌──────────┐   WalletConnect   ┌──────────────┐
-│   dApp   │ ◄──────────────── │ Protofire    │
+┌──────────┐   WalletConnect    ┌──────────────┐
+│   dApp   │ ◄────────────────  │ Protofire    │
 │ (Uniswap │    paired session  │    Safe      │
 │  Aave…)  │ ──────────────────►│              │
 └──────────┘  tx proposal sent  └──────┬───────┘
