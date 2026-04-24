@@ -519,4 +519,3 @@ Hardware wallets show the final EIP-712 hash, not the raw parameters. Use **Safe
 | Protofire website | https://protofire.io/ |
 
 ---
->>>>>>> 7a3a2fc (Renaming READMI.)

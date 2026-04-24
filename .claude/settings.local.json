@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebSearch",
-      "Read(//home/Friedhelm/.claude/**)",
-      "Read(//home/Friedhelm/.config/claude/**)"
-    ]
-  }
-}
